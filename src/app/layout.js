@@ -9,6 +9,7 @@ import Footer from "@/components/footer/footer";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import TawkToChat from "@/components/TawktoChat/TawktoChat";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // import TestComponent from "@/components/TestComponent/testComponent";
 
