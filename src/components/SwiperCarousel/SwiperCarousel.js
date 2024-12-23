@@ -57,6 +57,8 @@ export default function CarouselComponent() {
                 height={400}
                 className="img-fluid image"
                 layout="responsive"
+                placeholder="blur"
+                priority={true}
               />
               {/* Overlay Text */}
               
