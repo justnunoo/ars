@@ -1,0 +1,29 @@
+/* Custom styles for the carousel */
+.owl-carousel .owl-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .owl-carousel .owl-nav button {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .owl-carousel .owl-nav button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  

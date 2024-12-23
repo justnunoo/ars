@@ -1,0 +1,52 @@
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.carouselWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carouselTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carouselItem {
+  flex: 0 0 auto;
+  margin: 0 10px;
+}
+
+.carouselImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+}
+
+.carouselButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carouselButton:first-of-type {
+  left: 10px;
+}
+
+.carouselButton:last-of-type {
+  right: 10px;
+}

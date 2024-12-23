@@ -1,0 +1,45 @@
+#navbar {
+    transition: top 0.3s ease-in-out;
+  }
+
+  /* Basic styles for the navigation */
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  position: relative;
+  margin: 0 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000; /* Default link color */
+  padding: 5px 0;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-item a:hover {
+  color: #007bff; /* Highlight color on hover */
+}
+
+/* Line effect */
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  bottom: 0; /* Line appears just below the link text */
+  left: 50%; /* Start from the center */
+  width: 0; /* Hidden initially */
+  height: 2px; /* Line height */
+  background-color: #007bff; /* Line color */
+  transition: width 0.3s ease, left 0.3s ease; /* Smooth transition for width and position */
+}
+
+.nav-item a:hover::after {
+  width: 100%; /* Expand line fully */
+  left: 0; /* Align to the start of the link */
+}
